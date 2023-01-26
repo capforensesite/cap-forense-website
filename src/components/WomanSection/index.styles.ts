@@ -106,4 +106,9 @@ export const GradientBotton = styled.div`
   width: 100%;
   height: 5rem;
   background: linear-gradient(to top, black 10%, transparent 90%);
+
+  ${tabletSize} {
+    height: 3rem;
+    background: linear-gradient(to top, black 30%, transparent 70%);
+  }
 `
