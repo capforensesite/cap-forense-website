@@ -11,7 +11,7 @@ export const Capa = styled.section`
   flex-direction: column;
   gap: 5rem;
   width: 100vw;
-  margin: 10rem 0;
+  margin: 5rem 0;
 
   h1 {
     color: white;
