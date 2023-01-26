@@ -15,16 +15,19 @@ export default function MenSection() {
           </div>
           <Styled.Description>
             <Styled.Paragrafo>
-              Especialista em Análise Comportamental (Linguagem Corporal)
+              - Especialista em Análise Comportamental (Linguagem Corporal)
             </Styled.Paragrafo>
-            <Styled.Paragrafo>Perito Técnico pela IN.P.A.T</Styled.Paragrafo>
+            <Styled.Paragrafo>- Perito Técnico pela IN.P.A.T</Styled.Paragrafo>
             <Styled.Paragrafo>
-              Especialista em Emoções Faciais, mentiras e Códigos Faciais (FACS)
+              - Especialista em Emoções Faciais, mentiras e Códigos Faciais
+              (FACS)
             </Styled.Paragrafo>
             <Styled.Paragrafo>
-              Especialista em mentiras - SCANS
+              - Especialista em mentiras - SCANS
             </Styled.Paragrafo>
-            <Styled.Paragrafo>Graduando em E.D Fisica - UFJF</Styled.Paragrafo>
+            <Styled.Paragrafo>
+              - Graduando em E.D Fisica - UFJF
+            </Styled.Paragrafo>
           </Styled.Description>
           <Styled.GradientBotton />
         </Styled.TeamCapVertical>
