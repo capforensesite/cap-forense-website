@@ -75,3 +75,23 @@ export const CaseTitle = styled.span`
   margin-bottom: 1rem;
   margin-left: 1rem;
 `
+
+export const ListLinks = styled.div`
+  gap: 2rem;
+  padding: 0 1rem 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  a {
+    color: white;
+    font-size: 3rem;
+  }
+
+  ${mobileSize} {
+    a {
+      font-size: 2rem;
+    }
+  }
+`

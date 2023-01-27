@@ -10,7 +10,7 @@ export const Capa = styled.section`
   align-items: center;
   flex-direction: column;
   gap: 5rem;
-  margin: 5rem 0;
+  margin: 2rem 0;
 
   h1 {
     color: white;
@@ -18,7 +18,7 @@ export const Capa = styled.section`
   }
 
   img {
-    width: 45rem;
+    width: 65rem;
   }
 
   ${mobileSize} {
@@ -29,7 +29,7 @@ export const Capa = styled.section`
     }
 
     img {
-      width: 30rem;
+      width: 27rem;
     }
   }
 `

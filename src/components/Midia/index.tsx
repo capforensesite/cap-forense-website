@@ -68,6 +68,34 @@ export default function Midia() {
           />
         </Styled.VideoCard>
       </Styled.Videos>
+      <Styled.Title>
+        <span>ARTIGOS E PESQUISAS</span>
+      </Styled.Title>
+      <Styled.ListLinks>
+        <a
+          href="https://www.conjur.com.br/2016-fev-12/limite-penal-engane-me-puder-linguagem-corporal-entra-jogo-processual"
+          target="_blank"
+          rel="noreferrer"
+        >
+          * Engane-me se puder: a linguagem corporal entra no jogo processual?
+        </a>
+        <a
+          href="https://www.conjur.com.br/2016-fev-09/juiz-analisa-linguagem-corporal-testemunha-anula-depoimento"
+          target="_blank"
+          rel="noreferrer"
+        >
+          * Juiz anula depoimento depois de analisar linguagem corporal de
+          testemunha
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1BMuD-KKRbFbkZvd_FYszJEcxRcaZwCek/view"
+          target="_blank"
+          rel="noreferrer"
+        >
+          * A Linguagem Corporal como meio de prova na ánalise de depoimentos
+          testemunhais
+        </a>
+      </Styled.ListLinks>
     </Styled.Container>
   )
 }

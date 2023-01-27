@@ -5,6 +5,35 @@ import {
   tabletSize
 } from '../../styles/global.constants'
 
+export const BigContainer = styled.section`
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`
+
+export const DivLink = styled.div`
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1120px;
+  padding: 1rem 0;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all ease 0.25s;
+    :hover {
+      scale: 1.2;
+    }
+  }
+`
+
 export const Container = styled.section`
   width: 100%;
   height: max-content;
@@ -59,5 +88,6 @@ export const Pragraph = styled.p`
 
   ${mobileSize} {
     font-size: 1.8rem;
+    margin-right: 1rem;
   }
 `
