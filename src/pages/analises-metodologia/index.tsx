@@ -1,4 +1,4 @@
-import * as Styled from './index.styles'
+import * as Styled from '../../styles/analisesMetodologias.styles'
 
 export default function Descriptions() {
   return (

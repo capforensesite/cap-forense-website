@@ -3,7 +3,7 @@ import {
   maxWidthScreenTablet,
   mobileSize,
   tabletSize
-} from '../../styles/global.constants'
+} from './global.constants'
 
 export const BigContainer = styled.section`
   background-color: black;
