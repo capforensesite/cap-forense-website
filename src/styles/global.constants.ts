@@ -6,7 +6,7 @@
 
 // Sizes
 export const maxWidthScreenDesktop = '1120px'
-export const maxWidthScreenTablet = '780px'
+export const maxWidthScreenTablet = '738px'
 export const maxWidthScreenMobile = '300px'
 export const desktopSize = '@media (min-width: 1120px)'
 export const tabletSize = '@media (min-width: 738px) and (max-width: 1119px)'

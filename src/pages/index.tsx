@@ -5,6 +5,7 @@ import MenSection from '../components/MenSection'
 import Menu from '../components/Menu'
 import Midia from '../components/Midia'
 import MobileMenu from '../components/MobileMenu'
+import QuemSomos from '../components/QuemSomos'
 import WomanSection from '../components/WomanSection'
 import * as Styled from '../styles/home.styles'
 
@@ -53,6 +54,7 @@ export default function Home() {
         />
       )}
       <Capa />
+      <QuemSomos />
       <div ref={teamRef}>
         <WomanSection />
         <MenSection />
