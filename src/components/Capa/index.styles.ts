@@ -18,7 +18,7 @@ export const Capa = styled.section`
   }
 
   img {
-    width: 65rem;
+    width: 40rem;
   }
 
   ${mobileSize} {
@@ -29,7 +29,7 @@ export const Capa = styled.section`
     }
 
     img {
-      width: 27rem;
+      width: 20rem;
     }
   }
 `

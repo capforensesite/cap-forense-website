@@ -31,6 +31,8 @@ export const SubContainer = styled.div`
   span {
     font-size: 2rem;
     transition: all ease 0.25s;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 800;
     cursor: pointer;
     :hover {
       scale: 1.2;

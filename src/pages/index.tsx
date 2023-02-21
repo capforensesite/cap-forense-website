@@ -1,6 +1,7 @@
 import { useRouter } from 'next/dist/client/router'
 import { useEffect, useRef, useState } from 'react'
 import Capa from '../components/Capa'
+import ComoAjudar from '../components/ComoAjudar'
 import MenSection from '../components/MenSection'
 import Menu from '../components/Menu'
 import Midia from '../components/Midia'
@@ -55,13 +56,15 @@ export default function Home() {
       )}
       <Capa />
       <QuemSomos />
-      <div ref={teamRef}>
+      <WomanSection />
+      <ComoAjudar />
+      {/* <div ref={teamRef}>
         <WomanSection />
         <MenSection />
-      </div>
-      <div ref={midiaRef}>
+      </div> */}
+      {/* <div ref={midiaRef}>
         <Midia />
-      </div>
+      </div> */}
       {/* <Contato /> */}
     </Styled.Container>
   )

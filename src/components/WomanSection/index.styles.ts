@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {
+  maxWidthScreenDesktop,
   maxWidthScreenTablet,
   mobileSize,
   tabletSize
@@ -7,26 +8,74 @@ import {
 
 export const Container = styled.section`
   width: 100%;
-  height: max-content;
-  ${tabletSize} {
-    max-width: ${maxWidthScreenTablet};
-  }
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(1, 1, 1);
 
   ${mobileSize} {
     padding: 0 1rem;
+    max-height: 450px;
   }
 `
 
 export const BackImage = styled.div`
   height: 100%;
-  background-image: url('/capImages/mulher1.png');
-  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image: url('/capImages/logoOpacity.png');
+  background-size: 35%;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  max-width: ${maxWidthScreenDesktop};
+  background-color: rgb(1, 1, 1);
+
+  ${tabletSize} {
+    max-width: ${maxWidthScreenTablet};
+  }
+
+  ${mobileSize} {
+    gap: 1.5rem;
+    background-size: 50%;
+  }
+`
+
+export const BackFirstImage = styled.div`
+  height: 100%;
+  width: 100%;
+  max-width: 510px;
+  background-image: url('/capImages/mulher1.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: bottom;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+
+  ${tabletSize} {
+    max-width: 450px;
+  }
+`
+
+export const BackSecondImage = styled.div`
+  height: 100%;
+  width: 100%;
+  max-width: 510px;
+  background-image: url('/capImages/homem1.png');
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  ${tabletSize} {
+    max-width: 450px;
+  }
 `
 
 export const TeamCapVertical = styled.div`
@@ -78,27 +127,26 @@ export const TeamCapVertical = styled.div`
 `
 
 export const Description = styled.section`
-  width: 100%;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 5rem;
-  background: linear-gradient(to bottom, black 5%, transparent 95%);
+  gap: 2rem;
   margin-top: 5rem;
 
   ${mobileSize} {
     margin-top: 3rem;
-    gap: 2rem;
+    gap: 0.5rem;
   }
 `
 
 export const Paragrafo = styled.p`
-  font-size: 3.5rem;
+  font-size: 1.8em;
+  font-weight: 500;
 
   ${mobileSize} {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 `
 

@@ -8,7 +8,7 @@ import {
 export const Container = styled.section`
   background-image: url('capImages/grayWaveBackgroud.png');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -26,8 +26,34 @@ export const Container = styled.section`
     padding: 2rem 1rem;
   }
 `
-export const Title = styled.div`
+export const TitleSection = styled.div`
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1120px;
+  img {
+    width: 40rem;
+  }
+  ${tabletSize} {
+    max-width: ${maxWidthScreenTablet};
+    img {
+      width: 30rem;
+    }
+  }
+
+  ${mobileSize} {
+    img {
+      width: 10rem;
+    }
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+`
+
+export const Title = styled.div`
+  width: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,10 +69,17 @@ export const Title = styled.div`
     color: white;
   }
 
+  ${tabletSize} {
+    span {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+  }
+
   ${mobileSize} {
     span {
-      font-size: 5rem;
-      line-height: 5rem;
+      font-size: 3.5rem;
+      line-height: 4rem;
     }
   }
 `
@@ -59,6 +92,10 @@ export const Prgp = styled.div`
   font-weight: 500;
   color: white;
 
+  ${tabletSize} {
+    width: 100%;
+  }
+
   ${mobileSize} {
     width: 100%;
   }
@@ -67,7 +104,7 @@ export const Prgp = styled.div`
 export const FirstPrgp = styled.div`
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   max-width: 1120px;
   ${tabletSize} {
@@ -78,7 +115,7 @@ export const FirstPrgp = styled.div`
 export const SecondPrgp = styled.div`
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   max-width: 1120px;
   ${tabletSize} {
@@ -86,7 +123,6 @@ export const SecondPrgp = styled.div`
   }
 `
 export const SecondPrgpText = styled(Prgp)`
-  width: 60%;
   ${mobileSize} {
     width: 100%;
   }

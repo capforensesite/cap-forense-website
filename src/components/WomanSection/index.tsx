@@ -4,15 +4,7 @@ export default function WomanSection() {
   return (
     <Styled.Container>
       <Styled.BackImage>
-        <Styled.TeamCapVertical>
-          <span>T</span>
-          <span>E</span>
-          <span>A</span>
-          <span>M</span>
-          <div>
-            <span>C.A.P</span>
-            <span>FORENSE</span>
-          </div>
+        <Styled.BackFirstImage>
           <Styled.Description>
             <Styled.Paragrafo>
               - Especialista em Análise Comportamental e Linguagem Corporal
@@ -29,8 +21,25 @@ export default function WomanSection() {
               Inteligência Relacional
             </Styled.Paragrafo>
           </Styled.Description>
-        </Styled.TeamCapVertical>
-        <Styled.GradientBotton />
+        </Styled.BackFirstImage>
+        <Styled.BackSecondImage>
+          <Styled.Description>
+            <Styled.Paragrafo>
+              - Especialista em Análise Comportamental (Linguagem Corporal)
+            </Styled.Paragrafo>
+            <Styled.Paragrafo>- Perito Técnico pela IN.P.A.T</Styled.Paragrafo>
+            <Styled.Paragrafo>
+              - Especialista em Emoções Faciais, mentiras e Códigos Faciais
+              (FACS)
+            </Styled.Paragrafo>
+            <Styled.Paragrafo>
+              - Especialista em mentiras - SCANS
+            </Styled.Paragrafo>
+            <Styled.Paragrafo>
+              - Graduando em E.D Fisica - UFJF
+            </Styled.Paragrafo>
+          </Styled.Description>
+        </Styled.BackSecondImage>
       </Styled.BackImage>
     </Styled.Container>
   )

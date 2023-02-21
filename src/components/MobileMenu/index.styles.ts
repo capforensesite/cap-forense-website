@@ -25,6 +25,8 @@ export const SubContainer = styled.div<{ isOpen: boolean }>`
 
   span {
     font-size: 3rem;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 800;
     transition: all ease 0.25s;
     height: 3.5rem;
     cursor: pointer;
